@@ -1,0 +1,38 @@
+{
+  "name": "openbazaar2-migrator",
+  "version": "1.0.0",
+  "description": "Migrate your openbazaar 1 listings to openbazaar 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insanity54/openbazaar2-migrator.git"
+  },
+  "keywords": [
+    "openbazaar",
+    "open",
+    "bazaar",
+    "bitcoin",
+    "p2p",
+    "network",
+    "marketplace",
+    "ebay",
+    "transactions",
+    "amazon"
+  ],
+  "author": "Chris Grimmett <chris@grimtech.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/insanity54/openbazaar2-migrator/issues"
+  },
+  "homepage": "https://github.com/insanity54/openbazaar2-migrator#readme",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "inquirer": "^3.3.0",
+    "insane-openbazaar-api": "^0.2.10",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}
